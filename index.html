@@ -201,11 +201,11 @@
             }
             else if (props.DN == 4) { 
                 statusText = "TINGGI (AGAK CURAM)"; colorClass = "bg-orange-100 text-orange-800"; 
-                if(!props.Saran) adviceText = "Waspada erosi! Disarankan membuat sengkedan/terasering."; 
+                if(!props.Saran) adviceText = "Waspada berpotensi longsor!"; 
             }
             else if (props.DN == 5) { 
                 statusText = "BAHAYA (CURAM)"; colorClass = "bg-red-100 text-red-800"; 
-                if(!props.Saran) adviceText = "ZONA MERAH. Hindari hunian permanen, sangat rawan longsor saat hujan lebat."; 
+                if(!props.Saran) adviceText = "ZONA MERAH. Tidak direkomendasikan untuk pemukiman, rawan longsor saat hujan lebat."; 
             }
 
             badge.textContent = statusText;
@@ -302,3 +302,4 @@
     </script>
 </body>
 </html>
+
